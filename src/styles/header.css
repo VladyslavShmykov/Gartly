@@ -1,0 +1,39 @@
+.header {
+    display: grid;
+    height: 8%;
+    grid-template-columns: repeat(4, 1fr) 2fr;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.header-button {
+    width: 100%;
+    border-right: 1px solid rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+}
+
+.button-label {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #203F34;
+}
+
+.logo {
+    align-self: center;
+    background-color: transparent;
+}
+
+.greetings {
+    height: 50%;
+    width: fit-content;
+    padding: 0 3px 0 3px;
+    align-self: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #203F34;
+    border: 1px solid #203F34;
+    border-radius: 15px;
+}

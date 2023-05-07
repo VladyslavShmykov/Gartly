@@ -1,7 +1,13 @@
 .footer {
     display: grid;
+    justify-items: center;
+    align-items: center;
     height: 8%;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: 0.5fr 1.5fr repeat(2, 1fr) 2fr;
+}
+
+.lang-switcher-container {
+
 }
 
 button.lang-switcher {
@@ -13,6 +19,18 @@ button.lang-switcher {
 }
 
 .inst-logo {
+    margin-right: 30px;
     height: 26px;
     width: 26px;
+    justify-self: end;
+}
+
+.manifest {
+    padding: 0 10px;
+    background-color: #C1C9F2;
+    border-radius: 15px;
+}
+
+.telephone {
+    margin-left: 30px;
 }

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap">
+    <link rel="stylesheet" href="../styles/drop-styles.css">
+    <link rel="stylesheet" href="../styles/flex.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/flory.css">
+    <link rel="stylesheet" href="../styles/header.css">
+    <link rel="stylesheet" href="../styles/footer.css">
+    <title>Gartly</title>
+</head>
+<body>
+<div class="main-container flex jcsb">
+    <header class="header">
+        <a href="../../index.html" class="header-button flex f-row jcsa aic">
+            <span class="button-label">Video</span>
+            <span class="button-label">01</span>
+        </a>
+        <a class="header-button flex f-row jcsa aic active-page">
+            <span class="button-label">Flory</span>
+            <span class="button-label">02</span>
+        </a>
+        <a class="header-button flex f-row jcsa aic">
+            <span class="button-label">Kontakt</span>
+            <span class="button-label">03</span>
+        </a>
+    </header>
+
+    <div class="flory-main-body">
+        <header>
+            <a class="sub-header-button active-sub-header-page">was ist flory  / </a>
+            <a class="sub-header-button">wie funktioniert das / </a>
+            <a class="sub-header-button">warum flory</a>
+        </header>
+        <h4 class="title">meet flory</h4>
+        <div class="images">
+            <img src="../../img/growbox.svg" alt="growbox img">
+            <div class="pagination flex f-row jcc">
+                <div>(<)  </div>
+                <div>1 / 3</div>
+                <div>  (>)</div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="lang-switcher-container">
+            <button id="lang-switcher-de" class="lang-switcher">DE</button>
+            <button id="lang-switcher-en" class="lang-switcher">EN</button>
+        </div>
+        <p>[Veränderung beginnt zu Hause]</p>
+        <img class="inst-logo" src="../../img/instagram.svg" alt="instagram logo">
+    </footer>
+</div>
+
+<script type="module" src="../../src/scripts/initialize.js"></script>
+<script type="module" src="../../src/scripts/main.js"></script>
+<script type="module" src="../../src/scripts/event-listeners.js"></script>
+</body>
+</html>

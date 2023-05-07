@@ -11,6 +11,10 @@
     cursor: pointer;
 }
 
+.active-page {
+    border-bottom: 1px solid #003615;
+}
+
 .button-label {
     font-style: normal;
     font-weight: 400;
@@ -36,4 +40,13 @@
     color: #203F34;
     border: 1px solid #203F34;
     border-radius: 15px;
+}
+
+.sub-header-button {
+    cursor: pointer;
+    color: rgba(32, 63, 52, 0.6);
+}
+
+.active-sub-header-page {
+    color: rgb(32, 63, 52);
 }

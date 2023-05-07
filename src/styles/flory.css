@@ -1,0 +1,21 @@
+.flory-main-body {
+    height: 100%;
+    margin: 4%;
+    display: grid;
+}
+
+.title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: uppercase;
+    border: 1px solid #203F34;
+    border-radius: 15px;
+    align-self: baseline;
+    justify-self: baseline;
+    padding: 0 10px;
+}
+
+.images {
+    justify-self: baseline;
+}

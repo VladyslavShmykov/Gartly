@@ -1,4 +1,4 @@
-<html>
+<html lang="de">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -16,37 +16,50 @@
     <title>Gartly</title>
 </head>
 <body>
-<div class="main-container">
+<div class="main-container flex jcsb">
     <header class="header">
-        <button class="header-button flex jcsa aic">
+        <button class="header-button flex f-row jcsa aic">
             <span class="button-label">Video</span>
             <span class="button-label">01</span>
         </button>
-        <button class="header-button flex jcsa aic">
+        <button class="header-button flex f-row jcsa aic">
             <span class="button-label">Flory</span>
             <span class="button-label">02</span>
         </button>
-        <button class="header-button flex jcsa aic">
+        <button class="header-button flex f-row jcsa aic">
             <span class="button-label">Kontakt</span>
             <span class="button-label">03</span>
         </button>
         <img class="logo" src="../img/logo.svg" alt="logo">
-        <p class="greetings text-center">der smarte garten für dein zuhause</p>
+        <p class="greetings text-center flex jcc">der smarte garten für dein zuhause</p>
     </header>
+
     <div class="main-body">
-        <div class="video">
-            <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ?controls=0"
+        <div class="video flex aic jcc">
+            <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ?controls=0&autoplay=0&loop=1"
+                    class="you-tube-frame"
                     title="YouTube video player"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allow="accelerometer; autoplay; loop; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     allowfullscreen>
             </iframe>
         </div>
-
     </div>
 
     <footer class="footer">
-
+        <div class="lang-switcher-container">
+            <button id="lang-switcher-de" class="lang-switcher">DE</button>
+            <button id="lang-switcher-en" class="lang-switcher">EN</button>
+        </div>
+        <p>[Veränderung beginnt zu Hause]</p>
+        <img class="inst-logo" src="../img/instagram.svg" alt="instagram logo">
+        <p>manifest</p>
+        <p>info@gartly.com</p>
+        <p>+49 038439434 0898</p>
     </footer>
 </div>
+
+<script type="module" src="scripts/initialize.js"></script>
+<script type="module" src="scripts/main.js"></script>
+<script type="module" src="scripts/event-listeners.js"></script>
 </body>
 </html>

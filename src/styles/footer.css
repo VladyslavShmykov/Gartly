@@ -1,0 +1,18 @@
+.footer {
+    display: grid;
+    height: 8%;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+button.lang-switcher {
+    color: rgba(32, 63, 52, 0.3);
+}
+
+.active-lang {
+    color: rgba(32, 63, 52, 1) !important;
+}
+
+.inst-logo {
+    height: 26px;
+    width: 26px;
+}

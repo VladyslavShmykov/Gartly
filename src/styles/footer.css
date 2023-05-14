@@ -38,3 +38,7 @@ button.lang-switcher {
 .splice-footer {
     grid-template-columns: 0.5fr 1.5fr 1fr;
 }
+
+.contacts-footer {
+    grid-template-columns: 1fr 2fr;
+}

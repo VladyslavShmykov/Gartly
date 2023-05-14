@@ -42,6 +42,22 @@ a {
     text-decoration: none;
 }
 
+a:link {
+    color: #203F34;
+}
+
+a:visited {
+    color: #203F34;
+}
+
+a:hover {
+    color: #203F34;
+}
+
+a:active {
+    color: #203F34;
+}
+
 a:not([class]) {
     text-decoration-skip-ink: auto;
 }

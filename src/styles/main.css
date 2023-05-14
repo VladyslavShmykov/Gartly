@@ -13,12 +13,20 @@ body {
     width: 100%;
 }
 
+.w50p {
+    width: 50%;
+}
+
 .h100p {
     height: 100%;
 }
 
 .text-center {
     text-align: center;
+}
+
+.text-start {
+    text-align: start;
 }
 
 .f-size45 {
@@ -29,6 +37,11 @@ body {
 .f-size24 {
     font-size: 24px;
     font-weight: 400;
+}
+
+.f-size36 {
+    font-size: 36px;
+    font-weight: 500;
 }
 
 .f-size16 {

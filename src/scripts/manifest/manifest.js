@@ -2,11 +2,19 @@ import {MANIFEST_TEMPLATE} from "./manifest-template.constant.js";
 
 export function manifestSwitcherFn() {
     if (isManifestOpen) {
-        document.body.removeChild(manifestTemplate);
-        isManifestOpen = false;
+        manifestTemplate.classList.add('close-manifest');
+        manifestTemplate.onanimationend = () => {
+            document.body.removeChild(manifestTemplate);
+            manifestTemplate.classList.remove('close-manifest');
+            isManifestOpen = false;
+        }
     } else {
         document.body.appendChild(manifestTemplate);
-        isManifestOpen = true;
+        manifestTemplate.classList.add('open-manifest');
+        manifestTemplate.onanimationend = () => {
+            manifestTemplate.classList.remove('open-manifest');
+            isManifestOpen = true;
+        }
     }
 }
 

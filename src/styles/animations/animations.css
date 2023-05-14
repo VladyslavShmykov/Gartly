@@ -18,9 +18,9 @@
 
 @keyframes close-manifest {
     from {
-        top: 100vh;
+        top: 0;
     }
     to {
-        top: 0;
+        top: 100vh;
     }
 }

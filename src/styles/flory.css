@@ -35,7 +35,7 @@
 }
 
 .flory-right-section {
-    animation-duration: 500ms;
+    animation-duration: 3000ms;
     animation-name: slide-left;
 
     position: relative;

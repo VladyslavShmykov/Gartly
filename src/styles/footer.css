@@ -6,12 +6,15 @@
     grid-template-columns: 0.5fr 1.5fr repeat(2, 1fr) 2fr;
 }
 
-.lang-switcher-container {
-
+button.lang-switcher {
+    transition: 3000ms;
+    color: rgba(32, 63, 52, 0.3);
 }
 
-button.lang-switcher {
-    color: rgba(32, 63, 52, 0.3);
+button.lang-switcher.de:after {
+    margin-left: 14px;
+    color: rgba(32, 63, 52, 1) !important;
+    content: '|';
 }
 
 .active-lang {

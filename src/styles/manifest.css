@@ -7,6 +7,16 @@
     color: #FFF;
 }
 
+.open-manifest {
+    animation-duration: 3000ms;
+    animation-name: open-manifest;
+}
+
+.close-manifest {
+    animation-duration: 3000ms;
+    animation-name: close-manifest;
+}
+
 .manifest-header {
     position: relative;
     left: 50%;

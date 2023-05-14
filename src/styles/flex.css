@@ -22,3 +22,7 @@
 .aic {
     align-items: center;
 }
+
+.f-grow1 {
+    flex-grow: 1;
+}

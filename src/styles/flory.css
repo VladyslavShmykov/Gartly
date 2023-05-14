@@ -1,7 +1,10 @@
-.flory-main-body {
+.flory-left-section {
     height: 100%;
-    margin: 4%;
-    display: grid;
+    width: 50%;
+}
+
+.left-section-body {
+    padding: 4% 8%;
 }
 
 .title {
@@ -14,8 +17,25 @@
     align-self: baseline;
     justify-self: baseline;
     padding: 0 10px;
+    width: fit-content;
 }
 
 .images {
     justify-self: baseline;
+}
+
+.wishes {
+    color: #FFF;
+    padding: 0 33px;
+    width: fit-content;
+    font-weight: 400;
+    font-size: 24px;
+    background: #203F34;
+    border-radius: 20px;
+}
+
+.flory-right-section {
+    width: 50%;
+    background-color: red;
+
 }

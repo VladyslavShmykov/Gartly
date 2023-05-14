@@ -14,11 +14,13 @@
     <link rel="stylesheet" href="../styles/flory.css">
     <link rel="stylesheet" href="../styles/header.css">
     <link rel="stylesheet" href="../styles/footer.css">
+    <link rel="stylesheet" href="../styles/manifest.css">
+    <link rel="stylesheet" href="../styles/animations/animations.css">
     <title>Gartly</title>
 </head>
 <body>
 <div class="main-container flex jcsb">
-    <div class="flex f-row h100p">
+    <div class="flex f-row h100p overflow-hidden">
         <div class="flory-left-section flex jcsb">
             <header class="header page-btn-header">
                 <a href="../../index.html" class="header-button flex f-row jcsa aic">
@@ -56,8 +58,8 @@
 
             <footer class="footer splice-footer">
                 <div class="lang-switcher-container">
-                    <button id="lang-switcher-de" class="lang-switcher">DE</button>
-                    <button id="lang-switcher-en" class="lang-switcher">EN</button>
+                    <button id="lang-switcher-de" class="lang-switcher cursor-pointer">DE</button>
+                    <button id="lang-switcher-en" class="lang-switcher cursor-pointer">EN</button>
                 </div>
                 <p>[Veränderung beginnt zu Hause]</p>
                 <img class="inst-logo" src="../../img/instagram.svg" alt="instagram logo">
@@ -80,7 +82,7 @@
             </div>
 
             <footer class="footer contacts-footer">
-                <p class="manifest">manifest</p>
+                <button id="open-manifest" class="manifest uppercase cursor-pointer">manifest</button>
                 <div class="flex f-row">
                     <p class="email">info@gartly.com</p>
                     <p class="telephone">+49 038439434 0898</p>

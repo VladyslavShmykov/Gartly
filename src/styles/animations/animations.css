@@ -1,0 +1,26 @@
+@keyframes slide-left {
+    from {
+        left: 100px;
+    }
+    to {
+        left: 0
+    }
+}
+
+@keyframes open-manifest {
+    from {
+        top: 100vh;
+    }
+    to {
+        top: 0;
+    }
+}
+
+@keyframes close-manifest {
+    from {
+        top: 100vh;
+    }
+    to {
+        top: 0;
+    }
+}

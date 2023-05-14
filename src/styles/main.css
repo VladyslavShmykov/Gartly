@@ -76,3 +76,7 @@ body {
 .ptb20px {
     padding: 20px 0;
 }
+
+.overflow-hidden {
+    overflow: hidden;
+}

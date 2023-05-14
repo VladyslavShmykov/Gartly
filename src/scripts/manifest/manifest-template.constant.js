@@ -1,7 +1,7 @@
 export const MANIFEST_TEMPLATE = `
     <header class="header logo-header w50p manifest-header">
         <p class="logo uppercase f-size24 pl20px flex jcc aifs">gärtly</p>
-        <p class="greetings text-center flex jcc border-white">der smarte garten für dein zuhause</p>
+        <p class="greetings uppercase text-center flex jcc border-white">der smarte garten für dein zuhause</p>
     </header>
     
     <div class="manifest-body flex f-row f-grow1">

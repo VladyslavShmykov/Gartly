@@ -10,3 +10,8 @@
     background-size: cover;
     background-position: bottom;
 }
+
+.inputs-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}

@@ -20,7 +20,6 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 21px;
-    color: #203F34;
 }
 
 .logo {
@@ -37,11 +36,15 @@
     font-style: normal;
     font-weight: 400;
     text-transform: uppercase;
-    color: #203F34;
     border: 1px solid #203F34;
     border-radius: 15px;
 }
 
-.splice-header {
+.page-btn-header {
     grid-template-columns: repeat(3, 1fr);
+}
+
+.logo-header {
+    grid-template-columns: 1fr 2fr;
+    border: none;
 }

@@ -23,6 +23,10 @@
     align-items: center;
 }
 
+.aifs {
+    align-items: flex-start;
+}
+
 .f-grow1 {
     flex-grow: 1;
 }

@@ -24,18 +24,25 @@
     <div class="flex f-row h100p overflow-hidden">
         <div class="flory-left-section flex jcsb">
             <header class="header page-btn-header">
-                <a href="../../index.html" class="header-button flex f-row jcsa aic">
+                <div onclick="window.location.href = '../../index.html'" class="header-button flex f-row jcsa aic">
                     <span class="button-label">Video</span>
                     <span class="button-label">01</span>
-                </a>
-                <a href="flory.html" class="header-button flex f-row jcsa aic">
+                </div>
+                <div onclick="window.location.href = 'flory.html'" class="header-button flex f-row jcsa aic flory-link-btn">
                     <span class="button-label">Flory</span>
                     <span class="button-label">02</span>
-                </a>
-                <a class="cursor-pointer flex f-row jcsa aic active-page">
+                    <div class="hidden drop-down-container flex aifs jcsa">
+                        <a href="flory.html" class="drop-down-item">was ist flory</a>
+                        <hr class="hr">
+                        <a href="work-view.html" class="drop-down-item">wie funktioniert das</a>
+                        <hr class="hr">
+                        <a class="drop-down-item">warum flory</a>
+                    </div>
+                </div>
+                <div class="cursor-pointer flex f-row jcsa aic active-page">
                     <span class="button-label">Kontakt</span>
                     <span class="button-label">03</span>
-                </a>
+                </div>
             </header>
 
             <div class="left-section-body f-grow1 flex jcsb">

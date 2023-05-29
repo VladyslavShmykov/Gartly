@@ -20,18 +20,25 @@
 <body class="overflow-hidden">
 <div class="main-container flex jcsb">
     <header class="header">
-        <a class="header-button flex f-row jcsa aic active-page">
+        <div class="header-button flex f-row jcsa aic active-page">
             <span class="button-label">Video</span>
             <span class="button-label">01</span>
-        </a>
-        <a href="src/pages/flory.html" class="header-button flex f-row jcsa aic">
+        </div>
+        <div onclick="window.location.href = 'src/pages/flory.html'" class="header-button cursor-pointer flex f-row jcsa aic flory-link-btn">
             <span class="button-label">Flory</span>
             <span class="button-label">02</span>
-        </a>
-        <a href="src/pages/kontakt.html" class="header-button flex f-row jcsa aic">
+            <div class="hidden drop-down-container flex aifs jcsa">
+                <a href="src/pages/flory.html" class="drop-down-item">was ist flory</a>
+                <hr class="hr">
+                <a href="src/pages/work-view.html" class="drop-down-item">wie funktioniert das</a>
+                <hr class="hr">
+                <a class="drop-down-item">warum flory</a>
+            </div>
+        </div>
+        <div onclick="window.location.href = 'src/pages/kontakt.html'" class="cursor-pointer flex f-row jcsa aic">
             <span class="button-label">Kontakt</span>
             <span class="button-label">03</span>
-        </a>
+        </div>
         <img class="logo" src="img/logo.svg" alt="logo">
         <p class="greetings uppercase text-center flex jcc">der smarte garten für dein zuhause</p>
     </header>

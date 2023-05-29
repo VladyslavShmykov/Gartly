@@ -6,8 +6,13 @@
 }
 
 .header-button {
+    position: relative;
     width: 100%;
     border-right: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.flory-link-btn:hover .drop-down-container{
+    display: flex;
 }
 
 .active-page {
@@ -45,4 +50,17 @@
 .logo-header {
     grid-template-columns: 1fr 2fr;
     border: none;
+}
+
+.drop-down-container {
+    position: absolute;
+    top: 60px;
+    width: 100%;
+    padding: 10px;
+    height: 200px;
+    background-color: #EFEBE1;
+}
+
+.drop-down-container:hover {
+    display: flex;
 }

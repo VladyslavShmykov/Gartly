@@ -15,3 +15,12 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
+
+.input {
+    margin: 4% 0;
+}
+
+.submit-btn {
+    background-color: #C1C9F2;
+    border-radius: 15px;
+}

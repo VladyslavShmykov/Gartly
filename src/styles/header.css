@@ -66,5 +66,14 @@
 }
 
 .work-view-header {
-    background-color: unset;
+    /*background-color: #b6db96;*/
+    background-color: transparent;
+}
+
+.sub-header-flory {
+
+}
+
+.active-sub-header {
+    font-weight: 600;
 }

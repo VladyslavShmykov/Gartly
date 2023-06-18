@@ -4,3 +4,11 @@
     background-size: cover;
     background-position: bottom;
 }
+
+.drop-down-background {
+    background-image: url("../../img/work-view-background.svg");
+}
+
+.layout {
+    padding: 2% 4%;
+}

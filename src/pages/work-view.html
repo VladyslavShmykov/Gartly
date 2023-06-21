@@ -16,19 +16,23 @@
     <link rel="stylesheet" href="../styles/footer.css">
     <link rel="stylesheet" href="../styles/manifest.css">
     <link rel="stylesheet" href="../styles/animations.css">
+    <link rel="stylesheet" href="../styles/grid.css">
     <title>Gartly</title>
 </head>
 <body>
 <div class="container flex">
     <header class="header">
-        <div onclick="window.location.href = '../../index.html'" class="header-button cursor-pointer flex f-row jcsa aic">
+        <div onclick="window.location.href = '../../index.html'"
+             class="header-button cursor-pointer flex f-row jcsa aic">
             <span class="button-label">Video</span>
             <span class="button-label">01</span>
         </div>
-        <div onclick="window.location.href = 'flory.html'"  class="header-button cursor-pointer flex f-row jcsa aic flory-link-btn active-page">
+        <div onclick="window.location.href = 'flory.html'"
+             class="header-button cursor-pointer flex f-row jcsa aic flory-link-btn active-page">
             <span class="button-label">Flory</span>
             <span class="button-label">02</span>
-            <div onclick="if(event) event.stopPropagation()" class="work-view-header drop-down-container drop-down-background flex aifs jcsa">
+            <div onclick="if(event) event.stopPropagation()"
+                 class="work-view-header drop-down-container drop-down-background flex aifs jcsa">
                 <a href="flory.html" class="drop-down-item">was ist flory</a>
                 <hr class="hr">
                 <a class="drop-down-item">wie funktioniert das</a>
@@ -40,16 +44,53 @@
             <span class="button-label">Kontakt</span>
             <span class="button-label">03</span>
         </div>
-        <img class="logo" src="../../img/logo.svg" alt="logo">
+        <p class="logo uppercase f-size24 pl20px flex jcc aifs">gärtly</p>
         <p class="greetings uppercase text-center flex jcc">der smarte garten für dein zuhause</p>
     </header>
 
-    <div class="layout f-grow1">
-        <header class="">
-            <a href="flory.html" class="sub-header-button">was ist flory  / </a>
-            <a class="sub-header-button active-sub-header">wie funktioniert das / </a>
-            <a href="about-us.html" class="sub-header-button">warum flory</a>
-        </header>
+    <div class="layout flex jcsb">
+        <div class="w50p">
+            <header>
+                <a href="flory.html" class="sub-header-button">was ist flory / </a>
+                <a class="sub-header-button active-sub-header">wie funktioniert das / </a>
+                <a href="about-us.html" class="sub-header-button">warum flory</a>
+            </header>
+            <h4 class="title uppercase">highendprodukt</h4>
+        </div>
+        <div class="flex f-row content">
+            <div class="grid">
+                <p class="jsr">innovative bewässerungssystem</p>
+                <p class="jsc">edelstahl & aluminium gehäuse</p>
+                <p class="jsc">steuernde Elektronik</p>
+                <p class="jsr">intelligente beleuchtung </p>
+                <h1>Ein Garten
+                    der Innovation</h1>
+            </div>
+            <div class="f-grow1 flex">
+                <img class="model-3d" src="../../img/3d-model.svg" alt="3d model">
+            </div>
+            <div class="grid">
+                <p class="jsl">passöffnung für die wachstumskapsel</p>
+                <p class="jsc">app gesteuert</p>
+                <p class="jsl">spühlmaschine geeignet</p>
+                <div></div>
+            </div>
+        </div>
+        <div>
+            <div>
+                <p>Vergesst das Giessen und Düngen, Flory erledigt für Euch alles
+                    automatisch und schmutzfrei.
+                    Das System baut auf dem hydroponischen Prinzip auf. Diese Form der Aufzucht benötigt keine Erde,
+                    lediglich einen Wassertank in dem durch smarte Logik und Sensoren ein zum Wachsen optimales Milieu
+                    geschaffen wird. Der Nutzer darf lediglich sich über das Wachstum der Pflanzen freuen und die Ernte
+                    abwarten.
+                    Gesteuert wird das ganze aus der gärtly App heraus.</p>
+            </div>
+            <div>
+                <h4>genialer indoor-garten</h4>
+                <p>gärtly© – wir schaffen einen Kontaktpunkt zwischen Technik und der Natur.</p>
+            </div>
+        </div>
     </div>
 
     <footer class="footer">

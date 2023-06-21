@@ -1,3 +1,24 @@
+* {
+    color: #ffffff !important;
+    border-color: #ffffff !important;
+}
+
+a:link {
+    color: #ffffff;
+}
+
+a:visited {
+    color: #ffffff;
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+a:active {
+    color: #ffffff;
+}
+
 .container {
     height: 100%;
     background-image: url("../../img/work-view-background.svg");
@@ -10,5 +31,14 @@
 }
 
 .layout {
+    max-height: calc(100vh - 120px);
     padding: 2% 4%;
+}
+
+.model-3d {
+    height: 75%;
+  }
+
+.content {
+    max-height: calc(100% - 230px);
 }

@@ -1,0 +1,15 @@
+.grid {
+    display: grid;
+}
+
+.jsl {
+    justify-self: left;
+}
+
+.jsr {
+    justify-self: right;
+}
+
+.jsc {
+    justify-self: center;
+}

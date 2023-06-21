@@ -3,6 +3,7 @@
     grid-auto-rows: 60px;
     grid-template-columns: repeat(4, 1fr) 2fr;
     border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+    height: 60px;
 }
 
 .header-button {
@@ -12,7 +13,7 @@
 }
 
 .active-page {
-    border-bottom: 1px solid #003615;
+    border-bottom: 2px solid #003615;
 }
 
 .button-label {
@@ -65,7 +66,6 @@
 }
 
 .work-view-header {
-    /*background-color: #b6db96;*/
     background-color: transparent;
 }
 

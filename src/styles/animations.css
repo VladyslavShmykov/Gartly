@@ -17,7 +17,7 @@
     }
     5% {
         top: 97vh;
-        border-radius: 50% 50% 0 0;
+        border-radius: 50%;
     }
     70% {
         border-radius: 50% 50% 0 0;
@@ -44,7 +44,7 @@
     }
     95% {
         top: 97vh;
-        border-radius: 50% 50% 0 0;
+        border-radius: 50%;
     }
     100% {
         top: 97vh;

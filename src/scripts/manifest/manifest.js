@@ -48,12 +48,17 @@ manifestTemplate.classList.add('manifest-page', 'flex', 'jcsb');
 manifestTemplate.innerHTML = MANIFEST_TEMPLATE
 manifestTemplate.addEventListener('animationstart', ({animationName}) => {
     if (animationName === 'close-manifest') {
-        manifestTemplate.classList.add('hidden');
+        for (const child of manifestTemplate.children) {
+            console.log({child})
+            child.classList.add('hidden');
+        }
     }
 });
 manifestTemplate.addEventListener('animationend', ({animationName}) => {
     if (animationName === 'open-manifest') {
-        console.log({manifestTemplate});
+        for (const child of manifestTemplate.children) {
+            child.classList.remove('hidden');
+        }
     }
 });
 

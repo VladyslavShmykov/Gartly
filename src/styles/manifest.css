@@ -8,12 +8,12 @@
 }
 
 .open-manifest {
-    animation-duration: 3000ms;
+    animation-duration: 5000ms;
     animation-name: open-manifest;
 }
 
 .close-manifest {
-    animation-duration: 3000ms;
+    animation-duration: 5000ms;
     animation-name: close-manifest;
 }
 

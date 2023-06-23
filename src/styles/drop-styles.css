@@ -80,6 +80,10 @@ select {
     background-color: transparent;
 }
 
+input:focus-visible {
+    outline: none;
+}
+
 @media (prefers-reduced-motion: reduce) {
     * {
         animation-duration: 0.01ms !important;

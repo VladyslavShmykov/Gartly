@@ -46,5 +46,15 @@ let isManifestOpen;
 export const manifestTemplate = document.createElement('div');
 manifestTemplate.classList.add('manifest-page', 'flex', 'jcsb');
 manifestTemplate.innerHTML = MANIFEST_TEMPLATE
+manifestTemplate.addEventListener('animationstart', ({animationName}) => {
+    if (animationName === 'close-manifest') {
+        manifestTemplate.classList.add('hidden');
+    }
+});
+manifestTemplate.addEventListener('animationend', ({animationName}) => {
+    if (animationName === 'open-manifest') {
+        console.log({manifestTemplate});
+    }
+});
 
 const manifestDescription = manifestTemplate.querySelector('p#description');

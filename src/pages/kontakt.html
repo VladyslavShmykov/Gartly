@@ -54,21 +54,21 @@
                 <h4 class="title uppercase">say hello</h4>
                 <form id="contact-form" action="#" class="contact-form f-grow1 flex jcsb">
                     <div class="inputs-container">
-                        <div class="input">
-                            <label for="pursue">unternehmen</label>
-                            <input id="pursue">
+                        <div class="input flex">
+                            <input placeholder=" " id="pursue">
+                            <label class="label cursor-text" for="pursue">unternehmen</label>
                         </div>
-                        <div class="input">
-                            <label for="name">Name</label>
-                            <input id="name">
+                        <div class="input flex">
+                            <input placeholder=" " id="name">
+                            <label class="label cursor-text" for="name">Name</label>
                         </div>
-                        <div class="input">
-                            <label for="email">e-mail</label>
-                            <input id="email">
+                        <div class="input flex">
+                            <input placeholder=" " id="email">
+                            <label class="label cursor-text" for="email">e-mail</label>
                         </div>
-                        <div class="input">
-                            <label for="telephone">telefon</label>
-                            <input id="telephone">
+                        <div class="input flex">
+                            <input placeholder=" " id="telephone">
+                            <label class="label cursor-text" for="telephone">telefon</label>
                         </div>
                     </div>
 
@@ -77,11 +77,10 @@
                         Bei flory handelt es sich um ein einzigartiges Produkt, das dem Kunden mit einem minimalen
                         Aufwand Beeren, Gemüse, Kräuter und Salate für den eigenen Gebrauch zu züchten ermöglicht. Dabei
                         geht es kaum einfacher, das Gerät.
-
                     </p>
                     <hr class="hr">
                     <div class="f-grow1">
-                        <button class="submit-btn f-size24 uppercase">senden</button>
+                        <button type="button" id="submit" class="submit-btn f-size24 uppercase">senden</button>
                     </div>
                 </form>
             </div>
@@ -120,8 +119,9 @@
 
 </div>
 
-<script type="module" src="../../src/scripts/initialize.js"></script>
-<script type="module" src="../../src/scripts/main.js"></script>
-<script type="module" src="../../src/scripts/event-listeners.js"></script>
+<script type="module" src="../scripts/initialize.js"></script>
+<script type="module" src="../scripts/main.js"></script>
+<script type="module" src="../scripts/event-listeners.js"></script>
+<script type="module" src="../scripts/contact-form.js"></script>
 </body>
 </html>

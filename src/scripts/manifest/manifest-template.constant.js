@@ -6,9 +6,9 @@ export const MANIFEST_TEMPLATE = `
     
     <div class="manifest-body flex f-row f-grow1 hidden">
         <ul class="btn-container">
-            <li class="list-button active-list-btn uppercase f-size16">kreiswirtschaft unterstützen</li>
-            <li class="list-button uppercase f-size16">wissen teilen</li>
-            <li class="list-button uppercase f-size16">minimal waste fördern</li>
+            <li class="list-button active-list-btn uppercase f-size16 cursor-pointer">kreiswirtschaft unterstützen</li>
+            <li class="list-button uppercase f-size16 cursor-pointer">wissen teilen</li>
+            <li class="list-button uppercase f-size16 cursor-pointer">minimal waste fördern</li>
         </ul>
         <p id="description" class="manifest-description f-size36">Unsere Setzlinge und Substrate kommen von Bauern und Gärtnereien aus Ihrer Umgebung. 
             Kürzere Lieferketten und die Stärkung des lokalen Marktes sind das Ergebnis.</p>

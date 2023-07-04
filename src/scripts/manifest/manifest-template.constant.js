@@ -14,5 +14,5 @@ export const MANIFEST_TEMPLATE = `
             Kürzere Lieferketten und die Stärkung des lokalen Marktes sind das Ergebnis.</p>
     </div>
 
-    <button id="close-manifest" class="close-btn f-size24 uppercase w50p manifest-header text-start hidden">manifest</button>
+    <button id="close-manifest" class="close-btn f-size24 uppercase w50p manifest-header text-start hidden cursor-pointer">manifest</button>
 `

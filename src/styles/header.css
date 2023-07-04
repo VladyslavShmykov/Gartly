@@ -53,10 +53,12 @@
     padding: 10px;
     height: 200px;
     display: flex;
+    border: 1px solid #203F34;
+    border-top: none;
 }
 
 .drop-down-container {
-    transition: 3000ms;
+    transition: 300ms;
     position: absolute;
     top: 60px;
     width: 100%;

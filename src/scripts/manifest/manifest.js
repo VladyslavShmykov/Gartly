@@ -49,7 +49,6 @@ manifestTemplate.innerHTML = MANIFEST_TEMPLATE
 manifestTemplate.addEventListener('animationstart', ({animationName}) => {
     if (animationName === 'close-manifest') {
         for (const child of manifestTemplate.children) {
-            console.log({child})
             child.classList.add('hidden');
         }
     }

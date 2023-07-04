@@ -7,7 +7,7 @@
 }
 
 .kontakt-right-section {
-    animation-duration: 3000ms;
+    animation-duration: 300ms;
     animation-name: slide-left;
 
     position: relative;
@@ -39,7 +39,7 @@
     position: absolute;
     bottom: 25px;
     left: 4px;
-    transition: 3000ms;
+    transition: 300ms;
 }
 
 .input > input:focus-visible ~ .label {

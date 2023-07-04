@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap">
+    <link rel="stylesheet" href="../../styles/drop-styles.css">
+    <link rel="stylesheet" href="../../styles/flex.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <link rel="stylesheet" href="../../styles/warum-flory.css">
+    <link rel="stylesheet" href="../../styles/flory.css">
+    <link rel="stylesheet" href="../../styles/header.css">
+    <link rel="stylesheet" href="../../styles/footer.css">
+    <link rel="stylesheet" href="../../styles/manifest.css">
+    <link rel="stylesheet" href="../../styles/animations.css">
+    <title>Gartly</title>
+</head>
+<body class="overflow-hidden">
+<div class="main-container flex jcsb">
+    <div class="flex f-row h100p overflow-hidden">
+        <div class="flory-left-section flex jcsb">
+            <header class="header page-btn-header">
+                <div onclick="window.location.href = '../../../index.html'"
+                     class="header-button cursor-pointer flex f-row jcsa aic">
+                    <span class="button-label">Video</span>
+                    <span class="button-label">01</span>
+                </div>
+                <div class="header-button active-page flex f-row jcsa aic flory-link-btn">
+                    <span class="button-label">Flory</span>
+                    <span class="button-label">02</span>
+                    <div class="drop-down-container flex aifs jcsa">
+                        <a href="flory.html" class="drop-down-item">was ist flory</a>
+                        <hr class="hr">
+                        <a href="work-view.html" class="drop-down-item">wie funktioniert das</a>
+                        <hr class="hr">
+                        <a class="drop-down-item">warum flory</a>
+                    </div>
+                </div>
+                <div onclick="window.location.href = 'kontakt.html'" class="cursor-pointer flex f-row jcsa aic">
+                    <span class="button-label">Kontakt</span>
+                    <span class="button-label">03</span>
+                </div>
+            </header>
+
+            <div class="left-section-body f-grow1 flex jcsb">
+                <header class="sub-header-flory">
+                    <a href="flory.html" class="sub-header-button">was ist flory / </a>
+                    <a href="work-view.html" class="sub-header-button">wie funktioniert das / </a>
+                    <a class="sub-header-button active-sub-header">warum flory</a>
+                </header>
+                <h4 class="title uppercase">schön gärtnern</h4>
+                <div class="images">
+                    <img src="../../../img/growbox.svg" alt="growbox img">
+                    <div class="pagination flex f-row jcc">
+                        <div>(<)</div>
+                        <div>1 / 3</div>
+                        <div> (>)</div>
+                    </div>
+                </div>
+                <h3 class="f-size24">Ein Happening</h3>
+                <h3 class="f-size24">in der Küche.</h3>
+                <p class="f-size16">
+                    Flory schafft den Raum für Gemeinsamkeit, auf einer Ebene die sehr aktuell ist.
+                    Denn in unserem tiefsten Inneren möchten wir einen Ort der Ruhe und des Friedens finden. Flory
+                    bietet den notwendigen Raum und den Ausgangspunkt sich mit den Themen der Nachhaltigkeit und
+                    harmonischer Lebensführung auseinanderzusetzten.
+
+                    Flory ist eine ausgezeichnete Vorlage ohne jegliche Gartenfertigkeiten
+                    den Kindern die Pflanzenwelt näherzubringen.
+
+                </p>
+                <p class="wishes">ich will flory!</p>
+            </div>
+
+            <footer class="footer splice-footer">
+                <div class="lang-switcher-container">
+                    <button id="lang-switcher-de" class="lang-switcher de cursor-pointer">DE</button>
+                    <button id="lang-switcher-en" class="lang-switcher en cursor-pointer">EN</button>
+                </div>
+                <p>[Veränderung beginnt zu Hause]</p>
+                <img class="inst-logo" src="../../../img/instagram.svg" alt="instagram logo">
+            </footer>
+        </div>
+
+        <div class="about-us-right-section flex jcsb">
+            <header class="header logo-header">
+                <p class="logo uppercase f-size24 pl20px flex jcc aifs">gärtly</p>
+                <p class="greetings uppercase text-center flex jcc border-white">der smarte garten für dein zuhause</p>
+            </header>
+
+            <div class="right-section-body flex jcfe f-grow1 p8p">
+                <h4 class="title uppercase border-white ptb20px">modernes design</h4>
+                <p class="f-size24 ptb20px">gärtly© – ein minimalistisches und schlichtes Designobjekt, das jedes
+                    Interieur bereichert und auch den Raum für spannenden Austausch schafft.
+                    Mit flory visualisieren Sie auf eine stylische Art und Weise Ihren persönlichen Weg zu mehr
+                    Nachhaltigkeit. </p>
+            </div>
+
+            <footer class="footer contacts-footer">
+                <button id="open-manifest" class="manifest uppercase cursor-pointer">manifest</button>
+                <div class="flex f-row">
+                    <p class="email">info@gartly.com</p>
+                    <p class="telephone">+49 038439434 0898</p>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+</div>
+
+<script type="module" src="../../scripts/initialize.js"></script>
+<script type="module" src="../../scripts/main.js"></script>
+<script type="module" src="../../scripts/event-listeners.js"></script>
+</body>
+</html>

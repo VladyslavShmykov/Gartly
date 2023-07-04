@@ -7,7 +7,7 @@
 }
 
 button.lang-switcher {
-    transition: 3000ms;
+    transition: 300ms;
     color: rgba(32, 63, 52, 0.3);
 }
 

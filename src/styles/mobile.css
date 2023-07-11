@@ -1,0 +1,36 @@
+@media (max-width: 400px) {
+
+    .header {
+        grid-template-columns: repeat(2, 1fr)
+    }
+
+    .header-button {
+        border-right: none;
+        display: none;
+    }
+
+    .logo {
+        border-right: 1px solid rgba(0, 0, 0, 0.15);
+        width: 100%;
+    }
+
+    .mobile {
+        display: block !important;
+    }
+
+    .video {
+        height: auto;
+    }
+
+    .main-body {
+        grid-template-rows: 0.5fr 2fr 1fr;
+    }
+
+    .footer {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .footer-title, .contacts-container, .greetings  {
+        display: none;
+    }
+}

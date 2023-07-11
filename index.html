@@ -15,6 +15,8 @@
     <link rel="stylesheet" href="src/styles/footer.css">
     <link rel="stylesheet" href="src/styles/manifest.css">
     <link rel="stylesheet" href="src/styles/animations.css">
+    <link rel="stylesheet" href="src/styles/grid.css">
+    <link rel="stylesheet" href="src/styles/mobile.css">
     <title>Gartly</title>
 </head>
 <body class="overflow-hidden">
@@ -41,9 +43,30 @@
         </div>
         <img class="logo" src="img/logo.svg" alt="logo">
         <p class="greetings uppercase text-center flex jcc">der smarte garten für dein zuhause</p>
+        <div class="hidden header-button mobile menu asc text-center">
+            <span>Menu</span>
+            <div class="drop-down-menu">
+                <p class="menu-item">
+                    <span>Video</span>
+                    <span>01</span>
+                </p>
+                <p class="menu-item">
+                    <span>Flory</span>
+                    <span>02</span>
+                </p>
+                <p class="menu-item">was ist flory</p>
+                <p class="menu-item">wie funktioniert das   </p>
+                <p class="menu-item">warum flory </p>
+                <p class="menu-item">
+                    <span>Kontakt</span>
+                    <span>03</span>
+                </p>
+            </div>
+        </div>
     </header>
 
     <div class="main-body">
+        <h4 class="hidden uppercase title mobile">indoorgarden</h4>
         <div class="video flex aic jcc">
             <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ?controls=0&autoplay=0&loop=1"
                     class="you-tube-frame"
@@ -52,6 +75,7 @@
                     allowfullscreen>
             </iframe>
         </div>
+        <h3 class="hidden f-size24 mobile">Der smarte Garten für dein Zuhause</h3>
     </div>
 
     <footer class="footer">
@@ -59,10 +83,10 @@
             <button id="lang-switcher-de" class="lang-switcher de cursor-pointer">DE</button>
             <button id="lang-switcher-en" class="lang-switcher en cursor-pointer">EN</button>
         </div>
-        <p>[Veränderung beginnt zu Hause]</p>
+        <p class="footer-title">[Veränderung beginnt zu Hause]</p>
         <img class="inst-logo cursor-pointer" src="img/instagram.svg" alt="instagram logo">
         <button id="open-manifest" class="manifest uppercase cursor-pointer">manifest</button>
-        <div class="flex f-row">
+        <div class="flex f-row contacts-container">
             <a href="mailto:info@gartly.com" class="email">info@gartly.com</a>
             <a href="tel:+490384394340898" class="telephone">+49 038439434 0898</a>
         </div>

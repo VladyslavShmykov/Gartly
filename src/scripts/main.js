@@ -7,3 +7,13 @@ export function langSwitcher({target}) {
     }
     target.classList.add('active-lang');
 }
+
+export const menuOpener = (menu) => {
+    console.log(menu);
+    let isOpen = menu.classList.contains('opened');
+    if (isOpen) {
+        menu.classList.remove('opened');
+    } else {
+        menu.classList.add('opened');
+    }
+};

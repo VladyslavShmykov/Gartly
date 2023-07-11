@@ -1,4 +1,4 @@
-import {langSwitcher} from "./main.js";
+import {langSwitcher, menuOpener} from "./main.js";
 import {listSwitcher, manifestSwitcherFn, manifestTemplate} from "./manifest/manifest.js";
 
 export const langSwitcherDe = document.getElementById('lang-switcher-de');
@@ -15,3 +15,7 @@ closeBtn.addEventListener('click', () => manifestSwitcherFn());
 
 const manifestListButtons = manifestTemplate.querySelectorAll('li.list-button');
 manifestListButtons.forEach((li, index) => li.addEventListener('click', () => listSwitcher(manifestListButtons, index)))
+
+const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+const mobileMenu = document.getElementById('drop-down-menu');
+mobileMenuBtn.addEventListener('click', () => {menuOpener(mobileMenu)});

@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="../../styles/manifest.css">
     <link rel="stylesheet" href="../../styles/animations.css">
     <link rel="stylesheet" href="../../styles/grid.css">
+    <link rel="stylesheet" href="../../styles/mobile.css">
     <title>Gartly</title>
 </head>
 <body>
@@ -40,12 +41,34 @@
                 <a href="warum-flory.html" class="drop-down-item">warum flory</a>
             </div>
         </div>
-        <div onclick="window.location.href = 'kontakt.html'" class="cursor-pointer flex f-row jcsa aic">
+        <div onclick="window.location.href = 'kontakt.html'" class="header-button cursor-pointer flex f-row jcsa aic">
             <span class="button-label">Kontakt</span>
             <span class="button-label">03</span>
         </div>
         <p class="logo uppercase f-size24 pl20px flex jcc aifs">gärtly</p>
         <p class="greetings uppercase text-center flex jcc">der smarte garten für dein zuhause</p>
+        <div id="mobile-menu-btn" class="hidden header-button mobile menu asc text-center">
+            <span>Menu</span>
+        </div>
+        <div id="drop-down-menu" class="drop-down-menu drop-down-background flex">
+            <div class="menu-item f-grow1 flex f-row jcsb aife active-menu-item">
+                <span>Video</span>
+                <span>01</span>
+            </div>
+            <hr class="hr">
+            <div class="menu-item flex f-row jcsb aife">
+                <span>Flory</span>
+                <span>02</span>
+            </div>
+            <div class="menu-item">was ist flory</div>
+            <div class="menu-item">wie funktioniert das   </div>
+            <div class="menu-item">warum flory </div>
+            <hr class="hr">
+            <div class="menu-item flex f-row jcsb aife">
+                <span>Kontakt</span>
+                <span>03</span>
+            </div>
+        </div>
     </header>
 
     <div class="layout flex jcsb">

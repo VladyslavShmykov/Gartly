@@ -27,7 +27,7 @@ a:active {
 }
 
 .drop-down-background {
-    background-image: url("../../img/work-view-background.svg");
+    background-image: url("../../img/work-view-background.svg") !important;
 }
 
 .layout {

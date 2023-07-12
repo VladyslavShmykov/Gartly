@@ -73,12 +73,20 @@
     transition: 300ms;
     position: absolute;
     height: 0;
+    width: 100vw;
     contain: strict;
 }
 
 .opened {
     height: calc(100svh - 120px);
-    width: 100vw;
+}
+
+.menu-item {
+    padding: 30px;
+}
+
+.active-menu-item {
+    color: #203F3480;
 }
 
 .work-view-header {

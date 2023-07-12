@@ -31,6 +31,10 @@
     align-items: flex-start;
 }
 
+.aife {
+    align-items: flex-end;
+}
+
 .f-grow1 {
     flex-grow: 1;
 }

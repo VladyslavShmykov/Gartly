@@ -77,7 +77,7 @@
 }
 
 .opened {
-    height: calc(100vh - 120px);
+    height: calc(100svh - 120px);
     width: 100vw;
 }
 

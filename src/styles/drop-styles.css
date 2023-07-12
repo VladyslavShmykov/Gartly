@@ -27,7 +27,7 @@ dd {
 }
 
 body {
-    height: 100vh;
+    height: 100svh;
     scroll-behavior: smooth;
     text-rendering: optimizeSpeed;
     line-height: 1.5;

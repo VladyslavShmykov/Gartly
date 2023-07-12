@@ -43,27 +43,43 @@
         </div>
         <img class="logo" src="img/logo.svg" alt="logo">
         <p class="greetings uppercase text-center flex jcc">der smarte garten für dein zuhause</p>
-        <div id="mobile-menu-btn" class="hidden header-button mobile menu asc text-center">
-            <span>Menu</span>
-        </div>
-        <div id="drop-down-menu" class="drop-down-menu flex">
-            <div class="menu-item f-grow1 flex f-row jcsb aife active-menu-item">
-                <span>Video</span>
-                <span>01</span>
-            </div>
-            <hr class="hr">
-            <div class="menu-item flex f-row jcsb aife">
-                <span>Flory</span>
-                <span>02</span>
-            </div>
-            <div class="menu-item">was ist flory</div>
-            <div class="menu-item">wie funktioniert das   </div>
-            <div class="menu-item">warum flory </div>
-            <hr class="hr">
-            <div class="menu-item flex f-row jcsb aife">
-                <span>Kontakt</span>
-                <span>03</span>
-            </div>
+        <div class="hidden mobile drop-down-menu">
+            <input class="menu-btn" type="checkbox" id="menu-btn" />
+            <label class="menu-icon" for="menu-btn">
+                <span class="navicon"></span>
+            </label>
+            <ul class="menu flex jcsb">
+                <li class="f-grow1 flex jcfe">
+                    <a class="flex f-row jcsb">
+                        <span>Video</span>
+                        <span>01</span>
+                    </a>
+                    <hr class="hr">
+                </li>
+                <li>
+                    <a class="flex f-row jcsb">was ist flory</a>
+                </li>
+                <li>
+                    <a class="flex f-row jcsb">wie funktioniert das</a>
+                </li>
+                <li>
+                    <a class="flex f-row jcsb">warum flory</a>
+                </li>
+                <li>
+                    <a class="flex f-row jcsb">
+                        <span>Flory</span>
+                        <span>02</span>
+                    </a>
+                    <hr class="hr">
+                </li>
+
+                <li>
+                    <a class="flex f-row jcsb">
+                        <span>Kontakt</span>
+                        <span>03</span>
+                    </a>
+                </li>
+            </ul>
         </div>
     </header>
 

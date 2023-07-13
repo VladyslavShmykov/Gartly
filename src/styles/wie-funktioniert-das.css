@@ -42,3 +42,9 @@ a:active {
 .content {
     max-height: calc(100% - 230px);
 }
+
+.drop-down-menu .menu-icon .navicon,
+.drop-down-menu .menu-icon .navicon:before,
+.drop-down-menu .menu-icon .navicon:after {
+    background: #FFFFFF;
+}

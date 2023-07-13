@@ -55,7 +55,7 @@
         overflow: auto;
     }
 
-    .flory-right-section {
+    .flory-right-section, .about-us-right-section {
         width: 100%;
         height: 50%;
     }

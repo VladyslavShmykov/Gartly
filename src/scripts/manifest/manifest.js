@@ -1,8 +1,11 @@
 import {MANIFEST_TEMPLATE} from "./manifest-template.constant.js";
 
-export function manifestSwitcherFn() {
+export function manifestSwitcherFn(twoSectionBody) {
     if (isManifestOpen) {
         manifestTemplate.classList.add('close-manifest');
+        if (twoSectionBody) {
+            twoSectionBody.classList.remove('overflow-hidden');
+        }
         manifestTemplate.onanimationend = () => {
             document.body.removeChild(manifestTemplate);
             manifestTemplate.classList.remove('close-manifest');
@@ -11,6 +14,9 @@ export function manifestSwitcherFn() {
     } else {
         document.body.appendChild(manifestTemplate);
         manifestTemplate.classList.add('open-manifest');
+        if (twoSectionBody) {
+            twoSectionBody.classList.add('overflow-hidden');
+        }
         manifestTemplate.onanimationend = () => {
             manifestTemplate.classList.remove('open-manifest');
             isManifestOpen = true;

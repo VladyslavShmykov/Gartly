@@ -16,11 +16,12 @@
     <link rel="stylesheet" href="../../styles/footer.css">
     <link rel="stylesheet" href="../../styles/manifest.css">
     <link rel="stylesheet" href="../../styles/animations.css">
+    <link rel="stylesheet" href="../../styles/mobile.css">
     <title>Gartly</title>
 </head>
-<body class="overflow-hidden">
+<body id="two-section-body" class="flory-body">
 <div class="main-container flex jcsb">
-    <div class="flex f-row h100p overflow-hidden">
+    <div class="section-container flex f-row h100p">
         <div class="flory-left-section flex jcsb">
             <header class="header page-btn-header">
                 <div onclick="window.location.href = '../../../index.html'" class="header-button cursor-pointer flex f-row jcsa aic">
@@ -38,9 +39,47 @@
                         <a href="warum-flory.html" class="drop-down-item">warum flory</a>
                     </div>
                 </div>
-                <div onclick="window.location.href = 'kontakt.html'" class="cursor-pointer flex f-row jcsa aic">
+                <div onclick="window.location.href = 'kontakt.html'" class="header-button cursor-pointer flex f-row jcsa aic">
                     <span class="button-label">Kontakt</span>
                     <span class="button-label">03</span>
+                </div>
+                <p class="hidden mobile logo uppercase f-size24 pl20px flex jcc aifs">gärtly</p>
+                <div class="hidden mobile drop-down-menu">
+                    <input class="menu-btn" type="checkbox" id="menu-btn" />
+                    <label class="menu-icon" for="menu-btn">
+                        <span class="navicon"></span>
+                    </label>
+                    <ul class="menu flex jcsb">
+                        <li class="f-grow1 flex jcfe active-menu-item">
+                            <a class="flex f-row jcsb">
+                                <span>Video</span>
+                                <span>01</span>
+                            </a>
+                            <hr class="hr">
+                        </li>
+                        <li>
+                            <a href="../../pages/de/flory.html" class="flex f-row jcsb">
+                                <span>Flory</span>
+                                <span>02</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="../../pages/de/flory.html" class="flex f-row jcsb">was ist flory</a>
+                        </li>
+                        <li>
+                            <a href="../../pages/de/wie-funktioniert-das.html" class="flex f-row jcsb">wie funktioniert das</a>
+                        </li>
+                        <li>
+                            <a href="../../pages/de/warum-flory.html" class="flex f-row jcsb">warum flory</a>
+                            <hr class="hr">
+                        </li>
+                        <li>
+                            <a href="../../pages/de/kontakt.html" class="flex f-row jcsb">
+                                <span>Kontakt</span>
+                                <span>03</span>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             </header>
 
@@ -75,8 +114,9 @@
                     <button id="lang-switcher-de" class="lang-switcher de cursor-pointer">DE</button>
                     <button id="lang-switcher-en" class="lang-switcher en cursor-pointer">EN</button>
                 </div>
-                <p>[Veränderung beginnt zu Hause]</p>
+                <p class="footer-title">[Veränderung beginnt zu Hause]</p>
                 <img class="inst-logo" src="../../../img/instagram.svg" alt="instagram logo">
+                <button id="open-manifest-mobile" class="hidden mobile manifest uppercase cursor-pointer">manifest</button>
             </footer>
         </div>
 

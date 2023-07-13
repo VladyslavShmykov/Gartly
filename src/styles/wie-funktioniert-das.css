@@ -3,19 +3,7 @@
     border-color: #ffffff !important;
 }
 
-a:link {
-    color: #ffffff;
-}
-
-a:visited {
-    color: #ffffff;
-}
-
-a:hover {
-    color: #ffffff;
-}
-
-a:active {
+a:link, a:visited, a:hover, a:active {
     color: #ffffff;
 }
 

@@ -68,7 +68,7 @@
 }
 
 .active-menu-item {
-    color: #203F3480;
+    color: #203F3480 !important;
 }
 
 .work-view-header {
